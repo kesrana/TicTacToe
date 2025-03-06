@@ -1,5 +1,11 @@
 #include "TTT.h"
 
+//since the board is 25x25, the borders are ignored and only the middle square is meant to be played on
+const int ConvertTo25[9] = {
+    6, 7, 8,
+    11, 12, 13,
+    16, 17, 18};
+
 void initializeBoard(int *board)
 {
     int index = 0;

@@ -5,12 +5,12 @@
 
 int main()
 {
-    // int board[25];
-    // initializeBoard(&board[0]);
-    // board[ConvertTo25[0]] = CROSSES;
-    // PrintBoard(&board[0]);
+    int board[25];
+    initializeBoard(&board[0]);
+    board[ConvertTo25[0]] = CROSSES;
+    PrintBoard(&board[0]);
 
     // this function ensures that a random # will be generated each time you run the code
-    srand(time(NULL));
+    //srand(time(NULL));
     return 0;
 }
